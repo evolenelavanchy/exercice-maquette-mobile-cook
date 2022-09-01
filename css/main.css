@@ -46,14 +46,21 @@ video {
 
 .background-color {
   background-color: #ebede8;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 35px;
+  padding-bottom: 30px;
 }
 
 .background-black {
   background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .text-color {
   color: white;
+  margin-left: 20px;
 }
 
 .link-nav {
@@ -63,21 +70,44 @@ video {
 .second-font {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 24px;
-  font-weight: 700;
+  line-height: 1,2;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.padding-image {
+  padding-top: 20px;
+}
+.footer-first-text {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height:1.2;
+  color: white;
+  padding-left: 20px;
 }
 
 .third-size {
   font-size: 16px;
   font-family: 'Sorts Mill Goudy', serif;  
+  line-height: 1,2;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
 }
 
-footer {
+.what-to-cook-this-week {
+  font-size: 24px;
+  font-family: 'Sorts Mill Goudy', serif;
+  line-height: 1,2;
+  font-weight: 700;
   text-align: left;
 }
 
-.font-size-recipes {
+hr{
+  size: 20px;
+}
+
+.button {
   font-size: 11px;
   border-radius: 15px;
   color: white;
@@ -86,12 +116,28 @@ footer {
   margin-bottom: 20px;
   margin-left: 90px;
   margin-right: 90px;
+  font-weight: 700;
 
 }
 
+.white-box {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 20px;
+}
 .font-size-jerelle-guy {
   font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: 700;
 }
+
+footer {
+  text-align: left;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
